@@ -75,11 +75,11 @@ chrome.downloads.onChanged.addListener(function (downloadDelta) {
 	        if((state == 'complete') || (state == 'interrupted'))
 	        {
 		        delete queue[downloadDelta.id];
+		        if(isEmpty(queue)){
+			        showNotify({message:'Download queue is empty'},function(){});
+		        }
 	        }
         }
-	    if(isEmpty(queue) == 0){
-		    showNotify({message:'Download queue is empty'},function(){});
-	    }
 	    sendMessage({action:'DOWNLOAD_STATUS', video_id:downloadObject.data.id, data:downloadDelta}, downloadObject.tab.id);
     }
 });

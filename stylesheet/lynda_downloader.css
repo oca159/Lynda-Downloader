@@ -15,3 +15,13 @@
     position: absolute;
     top: 0;
 }
+.download_complete{
+    color: #4E9404 !important;;
+    text-decoration: line-through;
+}
+.download_in_progress{
+    color: #edc500 !important;
+}
+.download_interrupted, .download_error, .download_danger{
+    color: #9c2f00 !important;;
+}

@@ -264,6 +264,7 @@
 			if('error' in data)
 			{
 				$tocVideoDD.text(data.error.current.toLowerCase().replace('_', ' '));
+				$tocVideoDD.attr('class','download_error');
 				return;
 			}
 
@@ -272,14 +273,17 @@
 				if(data.paused.current == true)
 				{
 					$tocVideoDD.text('Paused');
+					$tocVideoDD.attr('class','download_pause');
 				}
 				else
 				{
 					$tocVideoDD.text('Downloading');
+					$tocVideoDD.attr('class','download_in_progress');
 				}
 				return;
 			}
 			if('danger' in data){
+				$tocVideoDD.attr('class','download_danger');
 				switch (data.danger.current){
 					case 'file':
 						$tocVideoDD.text( 'filename is suspicious' );
@@ -310,8 +314,10 @@
 			if(!('state' in data))
 			{
 				$tocVideoDD.text( 'Downloading' );
+				$tocVideoDD.attr('class','download_in_progress');
 			}
 			else {
+				$tocVideoDD.attr('class','download_'+data.state.current);
 				switch ( data.state.current ) {
 					case 'interrupted':
 						$tocVideoDD.text( 'Interrupted' );
@@ -321,7 +327,6 @@
 						break;
 					case 'complete':
 						$tocVideoDD.text( 'Completed' );
-
 						break;
 				}
 			}
