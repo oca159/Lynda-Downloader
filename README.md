@@ -1,0 +1,3 @@
+# Lynda-Downloader
+Please notice that you are not allow to use Lynda's video for share, sale, translate ....
+Just use it for private.
