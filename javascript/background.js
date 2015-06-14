@@ -33,6 +33,22 @@ var download = function(data, tab){
 		});
 	}
 };
+var showNotify = function(settings, callback){
+	var defaultOption = {
+		type: "basic",
+		title: 'Lyda Downloader',
+		priority: 2,
+		iconUrl: "images/icon_32.png"
+	};
+	for(prop in defaultOption)
+	{
+		if(!(prop in settings))
+		{
+			settings[prop] = defaultOption[prop];
+		}
+	}
+	chrome.notifications.create( "reload_update", settings, callback);
+};
 /**
  * Listen for message passing
  */
@@ -43,6 +59,9 @@ chrome.runtime.onMessage.addListener(
                 case 'DOWNLOAD':
 	                download(request.data, sender.tab);
                     break;
+	            case 'NOTIFY':
+		            showNotify(request.data, function(){});
+		            break;
             }
         }
     });
@@ -58,11 +77,26 @@ chrome.downloads.onChanged.addListener(function (downloadDelta) {
 		        delete queue[downloadDelta.id];
 	        }
         }
-	    console.log(downloadDelta, queue);
+	    if(isEmpty(queue) == 0){
+		    showNotify({message:'Download queue is empty'},function(){});
+	    }
 	    sendMessage({action:'DOWNLOAD_STATUS', video_id:downloadObject.data.id, data:downloadDelta}, downloadObject.tab.id);
     }
 });
-function log(name, data) {
-    console.log(name + " : ");
-    console.log(data);
+
+var onHeadersReceived = function(details){
+	console.log(details);
+};
+function isEmpty(obj) {
+	for(var prop in obj) {
+		if(obj.hasOwnProperty(prop))
+			return false;
+	}
+	return true;
 }
+chrome.webRequest.onHeadersReceived.hasListener( onHeadersReceived ) || chrome.webRequest.onHeadersReceived.addListener( onHeadersReceived, {
+	urls: [
+		"http://*.lynda.com/*",
+		"https://*.lynda.com/*"
+	], types: "main_frame sub_frame stylesheet script image object other".split( " " )
+}, [ "responseHeaders" ] );

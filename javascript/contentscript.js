@@ -242,6 +242,14 @@
 		var createDownloadTranscriptButton = function(){
 			return $( '<span><input id="download_transcript" type="checkbox">Download Transcript</span>');
 		};
+		var showNotify = function(message){
+			sendMessage({
+				action:'NOTIFY',
+				data:{
+					message:message
+				}
+			}, function(){});
+		};
 		/**
 		 * Process the status
 		 *
@@ -313,6 +321,7 @@
 						break;
 					case 'complete':
 						$tocVideoDD.text( 'Completed' );
+
 						break;
 				}
 			}

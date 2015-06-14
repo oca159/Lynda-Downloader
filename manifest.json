@@ -25,10 +25,12 @@
   "permissions": [
     "tabs",
     "activeTab",
+    "webRequest",
     "downloads",
     "http://*.lynda.com/*",
     "https://*.lynda.com/*",
-    "storage"
+    "storage",
+    "notifications"
   ],
   "version": "1.3.0"
 }
