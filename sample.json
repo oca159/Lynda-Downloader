@@ -1,0 +1,274 @@
+{
+  "chapters": [
+    {
+      "title": "Conclusion",
+      "video": [
+        {
+          "id": 379146,
+          "DateReleasedUtc": "03/18/2015 18:23:15",
+          "DurationInSeconds": 101,
+          "FileName": "363364_06_01_MM30_Next",
+          "Title": "Next steps",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_06_01_MM30_Next.mp4?c3.ri=3769890824460566115&hashval=1434227066_6d1affad7386c0ab8ef4866857007cbd"
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "video": [
+        {
+          "id": 379112,
+          "DateReleasedUtc": "03/18/2015 18:23:13",
+          "DurationInSeconds": 62,
+          "FileName": "363364_00_01_WL30_Welcome",
+          "Title": "Welcome",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_00_01_WL30_Welcome.mp4?c3.ri=3769890824460566109&hashval=1434227066_26d815751af8b88814ace55cd0e70005"
+        },
+        {
+          "id": 379114,
+          "DateReleasedUtc": "03/18/2015 18:23:13",
+          "DurationInSeconds": 62,
+          "FileName": "363364_00_03_XR15_Version",
+          "Title": "Choosing the right version of CINEMA 4D",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_00_03_XR15_Version.mp4?c3.ri=3769890824460566124&hashval=1434227066_8700a5a88f269dad8afba2ac3ec9ee31"
+        },
+        {
+          "id": 379113,
+          "DateReleasedUtc": "03/18/2015 18:23:13",
+          "DurationInSeconds": 27,
+          "FileName": "363364_00_02_XR15_ExFiles",
+          "Title": "Using the exercise files",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_00_02_XR15_ExFiles.mp4?c3.ri=3769890824460566158&hashval=1434227067_d064ad76a23129669a55e24e16116185"
+        }
+      ]
+    },
+    {
+      "title": "5. Setting Up for Render and Compositing in After Effects",
+      "video": [
+        {
+          "id": 379144,
+          "DateReleasedUtc": "03/18/2015 18:23:15",
+          "DurationInSeconds": 252,
+          "FileName": "363364_05_04_XR15_MotionBlur",
+          "Title": "Adding motion blur and color correction",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_05_04_XR15_MotionBlur.mp4?c3.ri=3769890824460566108&hashval=1434227066_442e93be799cf5728abdbdb8fef012fc"
+        },
+        {
+          "id": 379140,
+          "DateReleasedUtc": "03/18/2015 18:23:15",
+          "DurationInSeconds": 23,
+          "FileName": "363364_05_01_LA30_Ch5Intro",
+          "Title": "Face-time introduction",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_05_01_LA30_Ch5Intro.mp4?c3.ri=3769890824460566133&hashval=1434227066_d962a93d52148451eb1c1fab1203f3d8"
+        },
+        {
+          "id": 379142,
+          "DateReleasedUtc": "03/18/2015 18:23:15",
+          "DurationInSeconds": 273,
+          "FileName": "363364_05_02_XR15_ObjectBuff",
+          "Title": "Setting up object buffers, adding multipasses, and rendering",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_05_02_XR15_ObjectBuff.mp4?c3.ri=3769890824460566147&hashval=1434227066_1ef3435f612266f0426275679a8bf06b"
+        },
+        {
+          "id": 379141,
+          "DateReleasedUtc": "03/18/2015 18:23:15",
+          "DurationInSeconds": 156,
+          "FileName": "363364_05_01_XR15_AddAO",
+          "Title": "Adding ambient occlusion",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_05_01_XR15_AddAO.mp4?c3.ri=3769890824460566151&hashval=1434227066_c630892c9ba697bb4cdc17f13416ca09"
+        },
+        {
+          "id": 379143,
+          "DateReleasedUtc": "03/18/2015 18:23:15",
+          "DurationInSeconds": 296,
+          "FileName": "363364_05_03_XR15_AEImport",
+          "Title": "Importing assets and compositing passes in After Effects",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_05_03_XR15_AEImport.mp4?c3.ri=3769890824460566162&hashval=1434227067_4f7d671358c6dfd1ae5a7c27ad4e86fe"
+        }
+      ]
+    },
+    {
+      "title": "1. Creating the Cartoon Text",
+      "video": [
+        {
+          "id": 379119,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 326,
+          "FileName": "363364_01_03_XR15_AddJiggle",
+          "Title": "Prepping text to be animated with the Jiggle deformer",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_01_03_XR15_AddJiggle.mp4?c3.ri=3769890824460566122&hashval=1434227066_d427d3228d51e7a11d79c5cc534dc3f5"
+        },
+        {
+          "id": 379118,
+          "DateReleasedUtc": "03/18/2015 18:23:13",
+          "DurationInSeconds": 305,
+          "FileName": "363364_01_02_XR15_SubSurface",
+          "Title": "Creating rounded text using subdivision surfaces",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_01_02_XR15_SubSurface.mp4?c3.ri=3769890824460566141&hashval=1434227066_6acc16e4c6def1d548f09065d36e65b8"
+        },
+        {
+          "id": 379117,
+          "DateReleasedUtc": "03/18/2015 18:23:13",
+          "DurationInSeconds": 203,
+          "FileName": "363364_01_01_XR15_ExtrudeLogo",
+          "Title": "Creating 3D type from logo splines",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_01_01_XR15_ExtrudeLogo.mp4?c3.ri=3769890824460566152&hashval=1434227066_8202558f7c9e216880a1d4e9fed8061f"
+        },
+        {
+          "id": 379116,
+          "DateReleasedUtc": "03/18/2015 18:23:13",
+          "DurationInSeconds": 24,
+          "FileName": "363364_01_01_LA30_Ch1Intro",
+          "Title": "Face-time introduction",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_01_01_LA30_Ch1Intro.mp4?c3.ri=3769890824460566167&hashval=1434227067_9acc1ae8b11496e6eda136e53ad9b2cd"
+        }
+      ]
+    },
+    {
+      "title": "4. Adding Materials, Lighting, and Camera",
+      "video": [
+        {
+          "id": 379135,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 20,
+          "FileName": "363364_04_01_LA30_Ch4Intro",
+          "Title": "Face-time introduction",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_04_01_LA30_Ch4Intro.mp4?c3.ri=3769890824460566125&hashval=1434227066_953b104c709b32cff9ca1adb6af1b440"
+        },
+        {
+          "id": 379137,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 258,
+          "FileName": "363364_04_02_XR15_Lighting",
+          "Title": "Lighting the logo",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_04_02_XR15_Lighting.mp4?c3.ri=3769890824460566130&hashval=1434227066_686f33413ac58f885aa7577f8843be84"
+        },
+        {
+          "id": 379136,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 314,
+          "FileName": "363364_04_01_XR15_Texture",
+          "Title": "Texturing the \"Sproing\" logo",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_04_01_XR15_Texture.mp4?c3.ri=3769890824460566138&hashval=1434227066_6ddbdaed7d699ff7580e5dbaaeab1faa"
+        },
+        {
+          "id": 379138,
+          "DateReleasedUtc": "03/18/2015 18:23:15",
+          "DurationInSeconds": 390,
+          "FileName": "363364_04_03_XR15_AddCamera",
+          "Title": "Animating the camera move",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_04_03_XR15_AddCamera.mp4?c3.ri=3769890824460566168&hashval=1434227067_edcc3f2a83835065a6162452063b8c04"
+        }
+      ]
+    },
+    {
+      "title": "2. Animating Using the Jiggle Deformer",
+      "video": [
+        {
+          "id": 379124,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 320,
+          "FileName": "363364_02_03_XR15_AnimateI",
+          "Title": "Animating \"I\" using Jiggle deformer and Scale",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_02_03_XR15_AnimateI.mp4?c3.ri=3769890824460566113&hashval=1434227066_37278d4a8af1116ed4d2aeb738565c46"
+        },
+        {
+          "id": 379126,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 404,
+          "FileName": "363364_02_05_XR15_AnimateG",
+          "Title": "Animating \"G\" using Jiggle deformer and adjusting falloff direction",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_02_05_XR15_AnimateG.mp4?c3.ri=3769890824460566112&hashval=1434227066_807ddab10b8f652e0de672488f8be661"
+        },
+        {
+          "id": 379123,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 265,
+          "FileName": "363364_02_02_XR15_AnimateO",
+          "Title": "Animating \"O\" using Jiggle deformer with Linear Falloff",
+          "Link": "http://files4.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_02_02_XR15_AnimateO.mp4?c3.ri=3769890824460566142&start_time=20150613162426&end_time=20150613202426&token=0299cca279a0c915bf7b8"
+        },
+        {
+          "id": 379122,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 326,
+          "FileName": "363364_02_01_XR15_AnimateP",
+          "Title": "Animating \"P\" using Jiggle deformer",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_02_01_XR15_AnimateP.mp4?c3.ri=3769890824460566156&hashval=1434227067_c465f508d955b9cb3e7f496ddcb1a555"
+        },
+        {
+          "id": 379121,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 24,
+          "FileName": "363364_02_01_LA30_Ch2Intro",
+          "Title": "Face-time introduction",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_02_01_LA30_Ch2Intro.mp4?c3.ri=3769890824460566157&hashval=1434227067_48bb75c77fa8b2975e1f39acafeb5cbd"
+        },
+        {
+          "id": 379125,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 407,
+          "FileName": "363364_02_04_XR15_AnimateN",
+          "Title": "Animating \"N\" using Jiggle deformer and Rotate",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_02_04_XR15_AnimateN.mp4?c3.ri=3769890824460566169&hashval=1434227067_bfa5d570b0612f47a4cc24b85506bf01"
+        }
+      ]
+    },
+    {
+      "title": "3. Animating With Alternative Methods",
+      "video": [
+        {
+          "id": 379130,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 681,
+          "FileName": "363364_03_02_XR15_AnimateR",
+          "Title": "Animating \"R\" using Correction deformer",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_03_02_XR15_AnimateR.mp4?c3.ri=3769890824460566114&hashval=1434227066_45f9705fdfade2d06ba2325a9df39ba2"
+        },
+        {
+          "id": 379131,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 465,
+          "FileName": "363364_03_03_XR15_AnimateLogo",
+          "Title": "Animating the entire logo using deformers",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_03_03_XR15_AnimateLogo.mp4?c3.ri=3769890824460566121&hashval=1434227066_0477faaf2512ff47e7ae7a939296a45c"
+        },
+        {
+          "id": 379132,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 183,
+          "FileName": "363364_03_04_XR15_BulgeJiggle",
+          "Title": "Applying Jiggle to the Bulge deformers",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_03_04_XR15_BulgeJiggle.mp4?c3.ri=3769890824460566123&hashval=1434227066_c04d5b751842a1771aa03dd4c593830e"
+        },
+        {
+          "id": 379128,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 43,
+          "FileName": "363364_03_01_LA30_Ch3Intro",
+          "Title": "Face-time introduction",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_03_01_LA30_Ch3Intro.mp4?c3.ri=3769890824460566135&hashval=1434227066_6fbed7a449e29242491ff79e76587809"
+        },
+        {
+          "id": 379129,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 546,
+          "FileName": "363364_03_01_XR15_AnimateS",
+          "Title": "Animating \"S\" using vertex maps and Jiggle deformer",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_03_01_XR15_AnimateS.mp4?c3.ri=3769890824460566165&hashval=1434227067_f6c738a65ec245d7ed8bf4feb4391d51"
+        },
+        {
+          "id": 379133,
+          "DateReleasedUtc": "03/18/2015 18:23:14",
+          "DurationInSeconds": 220,
+          "FileName": "363364_03_05_XR15_RandomMoves",
+          "Title": "Adding random movement to letters",
+          "Link": "http://files2.lynda.com/secure/courses/363364/VBR_MP4h264_main_HD720/363364_03_05_XR15_RandomMoves.mp4?c3.ri=3769890824460566172&hashval=1434227067_81508211f3f2c13a11f92af6289699fb"
+        }
+      ]
+    }
+  ],
+  "courseId": "363364",
+  "title": "Creating 3D type from logo splines",
+  "exercisefileslist": []
+}
