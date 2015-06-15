@@ -38,7 +38,7 @@ var showNotify = function(settings, callback){
 		type: "basic",
 		title: 'Lyda Downloader',
 		priority: 2,
-		iconUrl: "images/icon_32.png"
+		iconUrl: "images/lynda-logo.jpg"
 	};
 	for(prop in defaultOption)
 	{
@@ -95,9 +95,6 @@ chrome.downloads.onChanged.addListener(function (downloadDelta) {
     }
 });
 
-var onHeadersReceived = function(details){
-	console.log(details);
-};
 function isEmpty(obj) {
 	for(var prop in obj) {
 		if(obj.hasOwnProperty(prop))
@@ -105,9 +102,3 @@ function isEmpty(obj) {
 	}
 	return true;
 }
-chrome.webRequest.onHeadersReceived.hasListener( onHeadersReceived ) || chrome.webRequest.onHeadersReceived.addListener( onHeadersReceived, {
-	urls: [
-		"http://*.lynda.com/*",
-		"https://*.lynda.com/*"
-	], types: "main_frame sub_frame stylesheet script image object other".split( " " )
-}, [ "responseHeaders" ] );
