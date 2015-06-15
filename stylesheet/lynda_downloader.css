@@ -15,6 +15,9 @@
     position: absolute;
     top: 0;
 }
+.download_requestion{
+    color: #ff8800 !important;
+}
 .download_complete{
     color: #4E9404 !important;;
     text-decoration: line-through;

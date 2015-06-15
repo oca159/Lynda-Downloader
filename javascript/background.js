@@ -1,5 +1,5 @@
 var queue = {};
-
+var lastNotifyTab = -1;
 var sendMessage = function ( message,tabId, callback ) {
 	message[ 'from' ] = "lyndadownload-backgroundscript";
 	chrome.tabs.sendMessage(tabId, message, callback);
@@ -47,8 +47,18 @@ var showNotify = function(settings, callback){
 			settings[prop] = defaultOption[prop];
 		}
 	}
-	chrome.notifications.create( "reload_update", settings, callback);
+	chrome.notifications.create( "lynda_download", settings, callback);
 };
+chrome.notifications.onClicked.addListener(function(notificationId){
+	if(notificationId =='lynda_download'){
+		chrome.tabs.update(lastNotifyTab.id, {active:true, highlighted:true}, function(tab){
+			if(chrome.runtime.lastError){
+				console.log('error');
+			}
+		});
+		chrome.notifications.clear('lynda_download');
+	}
+});
 /**
  * Listen for message passing
  */
@@ -60,6 +70,7 @@ chrome.runtime.onMessage.addListener(
 	                download(request.data, sender.tab);
                     break;
 	            case 'NOTIFY':
+		            lastNotifyTab = sender.tab;
 		            showNotify(request.data, function(){});
 		            break;
             }
@@ -76,7 +87,7 @@ chrome.downloads.onChanged.addListener(function (downloadDelta) {
 	        {
 		        delete queue[downloadDelta.id];
 		        if(isEmpty(queue)){
-			        showNotify({message:'Download queue is empty'},function(){});
+			        showNotify({message:'Download queue is empty, Click here to download more'},function(){});
 		        }
 	        }
         }

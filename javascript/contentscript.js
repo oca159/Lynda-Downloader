@@ -72,6 +72,7 @@
 			$(document).on('click', 'dd.download_link', function(e) {
 				e.preventDefault();
 				$(this ).text('Requesting')
+				$(this ).attr('class', 'download_requestion');
 				var data = $(this ).data('video');
 				sendMessage({action:'DOWNLOAD', data:data });
 			});
